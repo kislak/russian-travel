@@ -1,0 +1,6 @@
+.header__lang-links {
+  min-width: 78px;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
