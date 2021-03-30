@@ -7,3 +7,9 @@
   margin: 8px auto;
   max-width: 984px;
 }
+
+@media (max-width: 1050px) {
+  .lead__caption {
+    max-width: 928px;
+  }
+}

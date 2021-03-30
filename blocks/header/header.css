@@ -1,8 +1,14 @@
 .header {
   margin: 28px 48px;
-  min-width: 90%;
   min-height: 52px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+
+@media (max-width: 800px) {
+  .header {
+    margin: 28px 24px;
+  }
 }

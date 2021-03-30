@@ -2,4 +2,12 @@
   display: block;
   max-width: 984px;
   margin: 0px auto;
+  width: 100%;
+}
+
+@media (max-width: 1050px) {
+  .lead__image {
+     max-width: 928px;
+
+  }
 }
