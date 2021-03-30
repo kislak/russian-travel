@@ -1,0 +1,24 @@
+.cover {
+  margin: 92px auto;
+  background-image: url(../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: 1184px 740px;
+  background-position: center;
+  min-height: 740px;
+  max-width: 1184px;
+  position: relative;
+  z-index: 1;
+}
+
+.cover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #2A2C2F;
+  opacity: 30%;
+  z-index: -1;
+}
+
