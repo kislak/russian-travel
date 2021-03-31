@@ -1,4 +1,4 @@
-.places__place {
+.place {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows:  min-content minmax(min-content, max-content);
@@ -10,12 +10,12 @@
   margin-top: 80px;
 }
 
-.places__place:first-child {
+.place:first-child {
   margin-top: 0px;
 }
 
 @media (max-width: 700px) {
-  .places__place {
+  .place {
     grid-template-columns: 1fr;
     grid-gap: 32px;
     grid-template-areas:
