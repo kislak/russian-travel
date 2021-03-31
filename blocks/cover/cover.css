@@ -19,7 +19,12 @@
   right: 0;
   background: #2A2C2F;
   opacity: 30%;
+  transition: opacity 0.15s  ease-in-out;
   z-index: -1;
+}
+
+.cover:hover::after {
+  opacity: 80%;
 }
 
 @media (max-width: 900px) {

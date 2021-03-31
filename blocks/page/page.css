@@ -1,7 +1,7 @@
 .page {
   background: #2A2C2F;
   color: #FFF;
-  font-family: Inter;
+  font-family: Inter, Helvetica, sans-serif;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -12,4 +12,10 @@
 
 a {
   color: #FFF;
+  opacity: 100%;
+  transition: opacity 0.15s  ease-in-out;
+}
+
+a:hover {
+  opacity: 80%;
 }
