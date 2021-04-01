@@ -30,5 +30,6 @@
     margin: 64px 16px 0;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);
+    gap: 12px;
   }
 }
