@@ -14,3 +14,9 @@
     max-width: 928px;
   }
 }
+
+@media (max-width: 900px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}

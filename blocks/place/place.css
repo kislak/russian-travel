@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 105fr 110fr;
   grid-template-rows:  min-content minmax(min-content, max-content);
   grid-gap: 40px;
   grid-template-areas:
@@ -14,10 +14,16 @@
   margin-top: 0px;
 }
 
+@media (max-width: 1100px) {
+  .place {
+    grid-gap: 32px;
+  }
+}
+
 @media (max-width: 700px) {
   .place {
     grid-template-columns: 1fr;
-    grid-gap: 32px;
+    grid-gap: 28px;
     grid-template-areas:
       "title"
       "website"

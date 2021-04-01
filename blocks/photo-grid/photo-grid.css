@@ -21,12 +21,13 @@
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
+    margin: 88px 24px 0;
   }
 }
 
 @media (max-width: 500px) {
   .photo-grid {
-    margin-top: 64px;
+    margin: 64px 16px 0;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);
   }

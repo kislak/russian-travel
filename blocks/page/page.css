@@ -21,3 +21,8 @@ a {
 a:hover {
   opacity: 80%;
 }
+
+figure {
+  margin: 0;
+  padding: 0;
+}
