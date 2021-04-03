@@ -8,6 +8,5 @@
   .footer__nav {
     flex-direction: column;
     justify-content: space-between;
-    min-height: 250px;
   }
 }
